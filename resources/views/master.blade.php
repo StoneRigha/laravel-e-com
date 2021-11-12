@@ -29,10 +29,10 @@
         padding-top: 100px;
     }
     img.slider-img{
-        height: 200px !important
+        height: 600px !important
     }
     .custom-product{
-        height: 600px;
+        height: 800px;
 
     }
     .slider-text{

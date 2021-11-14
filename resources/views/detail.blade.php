@@ -15,6 +15,7 @@
             <h5>Category: {{ $products['category'] }}</h5>
             <br> <br>
             <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-success">Buy now</button>
         </div>
     </div>
 

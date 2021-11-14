@@ -7,7 +7,7 @@ use App\Models\Product;
 
 class ProductController extends Controller
 {
-    //
+    // index function
     public function index(){
         
         $data = Product::all();
@@ -15,4 +15,11 @@ class ProductController extends Controller
 
         return view('product', ['products'=>$data]);
     }
+    
+    //details function
+    public function detail($id){
+        $data = Product::find($id);
+        return view('detail', ['products'=>$data]);
+    }
+
 }

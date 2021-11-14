@@ -38,6 +38,23 @@
     .slider-text{
         background-color: #35443585 !important
     }
+    .trending-image{
+        height: 100px;
+    }
+    .trending-item{
+        float: left;
+        width: 20%
+    }
+    .treding-wrapper{
+        margin: 30px;
+    }
+    .detail-img{
+        height: 200px;
+    }
+    .product-img{
+        height: 500px;
+        width: 500px;
+    }
 </style>
 
 </html>

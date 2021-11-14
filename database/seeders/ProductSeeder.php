@@ -16,11 +16,14 @@ class ProductSeeder extends Seeder
     {
           // inserting dummie products in the db
           DB::table('products')->insert([
-            'name' => 'LG Hometheater',
-            'price' => '4200',
-            'category' => 'electronics',
-            'description' => 'HiFi sound system',
-            'gallery'=> 'https://i0.wp.com/deejoh.com/wp-content/uploads/2019/05/LG-Home-Theatre-LHD457-5.1ch-330W-Black.jpg?fit=1200%2C1200&ssl=1'
+            'name' => 'Samsung Fold 3',
+            'price' => '54200',
+            'category' => 'mobile',
+            'description' => 'OS 	Android 11, One UI 3.1.1
+            Chipset 	Qualcomm SM8350 Snapdragon 888 5G (5 nm)
+            CPU 	Octa-core (1x2.84 GHz Kryo 680 & 3x2.42 GHz Kryo 680 & 4x1.80 GHz Kryo 680)
+            GPU 	Adreno 660',
+            'gallery'=> 'https://i.guim.co.uk/img/media/e78695c18ca8a4699b01db857bd15d20e520db0a/617_0_4122_2473/master/4122.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=e8756af0ce9ba487269b1016b1b423f6'
 
             
         ],
@@ -49,7 +52,7 @@ class ProductSeeder extends Seeder
             'price' => '3200',
             'category' => 'appliances',
             'description' => 'ovens and stoves',
-            'gallery'=> 'https://cdn.vox-cdn.com/thumbor/9ahNZ6eDwcWuKhqD_MntH0Kff94=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22320968/ajohnson_210222_4437__005.jpg'
+            'gallery'=> 'https://i.guim.co.uk/img/media/e78695c18ca8a4699b01db857bd15d20e520db0a/617_0_4122_2473/master/4122.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=e8756af0ce9ba487269b1016b1b423f6'
 
             
 

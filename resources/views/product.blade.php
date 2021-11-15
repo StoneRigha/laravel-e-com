@@ -30,11 +30,11 @@
   </a>
   </div>
 @endforeach
+  </div>
+  <div class="custom-product">
   <div class="trending-wrapper">
-
+    <h3>Trending products</h3>
       @foreach ($products as $item)
-          
-      <h3>Trending products</h3>
       <div class="trending-item">
         <a href="detail/{{ $item['id'] }}">
         <img class="trending-image" src="{{ $item['gallery'] }}" >
@@ -48,6 +48,9 @@
     
   </div>
   @endforeach
+  </div>
+
+  <div>
 
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">

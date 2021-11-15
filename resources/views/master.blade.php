@@ -53,7 +53,10 @@
     }
     .product-img{
         height: 500px;
-        width: 500px;
+        width: fit-content;
+    }
+    .search-box{
+        width: 500px !important
     }
 </style>
 
